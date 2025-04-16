@@ -1,5 +1,5 @@
 {
-  "name": "StushApp", 
+  "name": "StushApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,24 @@
     "test": "jest"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@react-navigation/bottom-tabs": "^7.3.10",
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/stack": "^7.2.10",
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.4",
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21",
     "react": "19.0.0",
-    "react-native": "0.79.1"
+    "react-hook-form": "^7.55.0",
+    "react-native": "0.79.1",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-reanimated": "^3.17.4",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-redux": "^9.2.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -35,5 +51,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@4.6.0+sha224.acd0786f07ffc6c933940eb65fc1d627131ddf5455bddcc295dc90fd"
 }
