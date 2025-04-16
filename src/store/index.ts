@@ -11,7 +11,6 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) => 
     getDefaultMiddleware({
       serializableCheck: {
-        // Ignore certain action types or paths in state that aren't serializable
         ignoredActions: ['auth/login/fulfilled'],
         ignoredPaths: ['auth.authData'],
       },
