@@ -27,13 +27,13 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
 
   return (
     <ImageBackground
-      source={require('../../assets/background.png')}
+      source={require('../../../assets/images/background.png')}
       style={styles.backgroundImage}
       resizeMode="cover">
       <SafeAreaView style={styles.container}>
         <Animated.View style={[styles.contentContainer, { opacity: fadeAnim }]}>
           <Image
-            source={require('../../assets/stush-logo.png')}
+            source={require('../../../assets/images/stush-logo.png')}
             style={styles.logoImage}
             resizeMode="contain"
           />

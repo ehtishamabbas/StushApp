@@ -9,6 +9,7 @@ import SplashScreen from '../screens/auth/SplashScreen';
 import LoginScreen from '../screens/auth/LoginScreen';
 import RegisterScreen from '../screens/auth/RegisterScreen';
 import HomeScreen from '../screens/LoggedInLayouts/HomeScreen';
+import About from '../screens/auth/About';
 
 const Stack = createStackNavigator();
 
@@ -40,6 +41,8 @@ const AppNavigator = () => {
         <>
           <Stack.Screen name="Login" component={LoginScreen} />
           <Stack.Screen name="Register" component={RegisterScreen} />
+          <Stack.Screen name="About" component={About} />
+
         </>
       ) : (
         // Main App Stack
